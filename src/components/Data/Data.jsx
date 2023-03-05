@@ -14,24 +14,6 @@ export default function Data({ title, objStats }) {
             <span className={css.percentage}>{`${objStats[key]}`}%</span>
           </li>
         ))}
-
-{/* 
-    <li className={css.item}>
-      <span className={css.label}>.docx</span>
-      <span className={css.percentage}>{label === '.docx' && `${percentage} %`}</span>
-    </li>
-    <li className={css.item}>
-      <span className={css.label}>.mp3</span>
-      <span className={css.percentage}>{label === '.mp3' && `${percentage} %`}</span>
-    </li>
-    <li className={css.item}>
-      <span className={css.label}>.pdf</span>
-      <span className={css.percentage}>{label === '.pdf' && `${percentage} %`}</span>
-    </li>
-    <li className={css.item}>
-      <span className={css.label}>.mp4</span>
-      <span className={css.percentage}>{label === '.mp4' && `${percentage} %`}</span>
-    </li> */}
   </ul>
 </section>
   )

@@ -14,16 +14,16 @@
 }
 
 .avatar {
-  width: 80px;
+  width: 100px;
   border-radius: 50%;
 }
 
 .name {
   margin: 20px 0 0;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.5px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #3f3f3f;
 }
 
@@ -69,11 +69,6 @@
   border-right: 1px solid #cdcdcd;
 }
 
-.stats li {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
 
 .label {
   margin-top: 0;
