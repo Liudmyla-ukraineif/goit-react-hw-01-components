@@ -19,6 +19,7 @@ export default function Data({ title, objStats }) {
   )
 }
 
+
 Data.protoType = {
   title: PropTypes.string,
   label: PropTypes.string.isRequired,
