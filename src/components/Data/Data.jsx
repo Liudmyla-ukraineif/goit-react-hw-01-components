@@ -9,7 +9,7 @@ export default function Data({ title, objStats }) {
   <ul className={css.statList}>
         
         {Object.keys(objStats).map((key) => (
-          <li className={css.item}>
+          <li key={key}  className={css.item}>
             <span className={css.label}>{key}</span>
             <span className={css.percentage}>{`${objStats[key]}`}%</span>
           </li>
